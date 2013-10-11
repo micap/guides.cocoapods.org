@@ -12,8 +12,11 @@ This guide gathers best practices for Cocoa library authors. The goal is to make
 	* App project
 		* `HEADER_SEARCH_PATHS` + `#import <Lib/Lib.h>`
 
+* Separate Demo app project
 * Implicit Dependencies
 * Multiple (dependent) libraries
+* License
+* Difference between `#import` in source files and header files
 
 ### Resource bundle
 
