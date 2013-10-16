@@ -4,7 +4,7 @@ This guide gathers best practices for Cocoa library authors. The goal is to make
 
 * Xcode workspace
 	* Library project
-		* Source Code
+		* Source Code (3 letters prefix)
 		* Headers (public/project/private, Copy Files vs Copy Headers)
 		* Resources
 		* Frameworks (indicative)
@@ -17,9 +17,11 @@ This guide gathers best practices for Cocoa library authors. The goal is to make
 * Multiple (dependent) libraries
 * License
 * Difference between `#import` in source files and header files
+* Unit tests
 
 ### Resource bundle
 
+* Info.plist (version information)
 * http://www.cocoanetics.com/2012/05/resource-bundles/
 * http://www.galloway.me.uk/tutorials/ios-library-with-resources/
 
